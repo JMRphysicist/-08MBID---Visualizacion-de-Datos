@@ -1,3 +1,27 @@
 h1, h2 {
   font-family: Lato;
 }
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  font-size: 14px; /* Añadimos esta línea para reducir el tamaño de fuente */
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
